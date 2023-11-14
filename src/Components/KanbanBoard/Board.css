@@ -1,0 +1,12 @@
+.board-heading{
+    display: flex;
+   
+}
+.board-options{
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+    margin-right: 0;
+   
+}

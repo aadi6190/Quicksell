@@ -1,0 +1,68 @@
+/* App.css */
+body {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  background: lightgrey;
+  margin: 0;
+}
+
+.app {
+  text-align: center;
+  margin: 20px;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(232, 232, 247);
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  /* background-color: rgb(100, 99, 99); */
+  color: #070707;
+  border: 0.5px  black ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:lightcyan;
+}
+
+label {
+  margin-left: 20px;
+  color: #0a0a0a;
+  float: left;
+}
+.lable{
+  float: right;
+}
+
+select {
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.board {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ticket-group {
+  
+  border-radius: 16px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  
+}
+
+.board-options {
+margin-left: 10rem;
+margin-bottom: 2rem;
+}
+

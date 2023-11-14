@@ -1,0 +1,64 @@
+.card {
+    border: 1px solid rgba(125, 124, 124, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+ 
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+}
+
+.card-head {
+    padding: 5px;
+    display: flex;
+    height: 1rem;
+
+    justify-content: space-between;
+}
+
+.card h3 {
+    margin-bottom: 20px;
+    color: rgb(5, 5, 5);
+}
+
+.cam span {
+   
+    width: 5rem;
+    margin-right: 60%;
+    margin-top: 0.1rem;
+    font-size: 200;
+}
+
+.card p {
+    margin: 0;
+    color: rgb(168, 165, 165);
+}
+
+.card p:first-child {
+    font-weight: bold;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    /* половина ширины и высоты */
+    margin-left: 6.4rem;
+    margin-bottom: 2rem;
+
+}
+
+.card-footer {
+    margin-right: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-footer span {
+    padding: 2px 5px 2px 5px;
+    border: 1px solid grey;
+    color: rgb(168, 165, 165);
+
+    border-radius: 5px;
+}
