@@ -37,8 +37,8 @@ const App = () => {
     <div className="app">
       <header>
         <button onClick={() => handleGroupingChange('status')}>Group by Status</button>
-        <button onClick={() => handleGroupingChange('user')}>Group by User</button>
-        <button onClick={() => handleGroupingChange('priority')}>Group by Priority</button>
+        <button onClick={() => handleGroupingChange('user')}>Group by Users</button>
+        <button onClick={() => handleGroupingChange('priority')}>Group by Priorities</button>
 
         <label>
          Display: 
